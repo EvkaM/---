@@ -16,17 +16,16 @@
     }
 
     .mute-btn {
-        position: absolute;
-        color: #ffffff;
-        top: 0px;
-        right: -5px;
-        border: none;
-        border-radius: 10px;
-        padding: 10px 20px;
-        font-size: 24px;
-        cursor: pointer;
-        z-index: 999;
-        background: transparent;
+    position: absolute;
+    color: #ffffff;
+/*     width: 100%; */
+/*     align-items: center; */
+        margin-left: 15rem;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 999;
+    background: transparent;
     }
 
     .main {
@@ -567,4 +566,5 @@
         font-size: 16px;
         font-style: italic;
         text-align: center;
+
     }
